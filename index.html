@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Typing Master, Hindi Typing Tutor, English Typing Tutor, Free tool to Type in Hindi font. Sarkari Naukri Typing Test Kit">
+    <meta name="author" content="Hindi Typing Master"> 
+	<meta name="Keyword" content="Typing Tutor, Hindi, Typing">
+    <title>Online Hindi Typing Tutor - Hindi </title> 
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">  
+    <link href="css/style.css" rel="stylesheet">  
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+	<!---<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom">
+        <div class="container-fluid top-head">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Free Typing Master</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="index.html">Hindi</a></li>
+                    <li><a href="about.html">English</a></li>
+                    <li><a href="post.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 seo-l">
+                    <div class="site-heading">
+                        <h1 class="mb0 heading">Hindi Typing Tutor</h1> 
+						<h2 class="seo-txt-h2"> A Best and Free way to Learn typing in Hindi </h2>
+						<h2 class="seo-txt-p"> The First Free typing tutor in hindi to learn typing for Government Jobs, Private Sector or Commercial task.
+							This is absolutely free and handy tool, you can use it without internet once it loaded. A Free Hindi Typing tutorial give you
+							tips to increase your speed and accuracy. A large list of Chapters will give you zest to type more.<br>
+						</h2>
+						<div class="row">
+							<div class="col-md-9"><h2> Let's Double your tying speed by interactive typing tutor.</h2></div>
+							<div class="col-md-3">
+								<button class="btn btn-warning"> Start Now </button>
+							</div>
+						</div>	
+						<p class="seo-txt-v"> Version: 1.0 : Created By : <a href="#">P. Sukralia </a> </p> 
+						  
+                    </div>
+                </div>
+				<div class="col-md-4 seo-r  animated rotateInDownRight">
+					<div id="slider1" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#slider1" data-slide-to="0" class="active"></li>
+						<li data-target="#slider1" data-slide-to="1"></li>
+						<li data-target="#slider1" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <img src="./img/keybd1.png" alt="Hindi Typing"> 
+						</div>
+						<div class="item">
+						  <img src="./img/result1.png" alt="Hindi Typing"> 
+						</div>
+						<div class="item">
+						  <img src="./img/share1.png" alt="Hindi Typing"> 
+						</div> 
+					  </div> 
+					</div>   
+				</div>
+            </div> 
+        </div>
+    </header>
+	<section class="container-fluid main">
+		<div class="container choose-level ">  
+		  <div class="row levels" id="levels">
+			<h2> Choose Your Level </h2>
+			<div class="col-md-4">
+				<button class="btn lg easy level" value="easy">Easy</button>
+			</div>
+			<div class="col-md-4">
+				<button class="btn lg normal level" value="normal">Normal</button> 
+			</div>
+			<div class="col-md-4">
+				<button class="btn lg hard level" value="hard">Hard</button>
+			</div>
+		  </div>  
+		</div>
+		<div class="row editor-container clearfix" id="typing-tutor">
+			<div class="col-md-5">
+				<div class="panel panel-yellow">
+					<div class="panel-heading left-con">
+						<div class="row">
+							<div class="col-sm-4"><h4 class="chng-cptr">Change Chapter</h4><span id="chapter_no"></span> </div>
+							<div class="col-sm-8">
+							<input type="hidden" id="level" value="normal">
+								<select class="form-control" id="chng-chpter" onchange="changeChapter(this.value)">
+									<option value="1"> Chapter 1 </option>
+									<option value="2"> Chapter 2 </option>
+									<option value="3"> Chapter 3 </option>
+									<option value="4"> Chapter 4 </option>
+									<option value="5"> Chapter 5 </option>
+									<option value="6"> Chapter 6 </option>
+									<option value="7"> Chapter 7 </option>
+									<option value="8"> Chapter 8 </option>
+									<option value="9"> Chapter 9 </option>
+									<option value="10"> Chapter 10 </option> 
+								</select>
+							</div>
+						</div>
+					</div> 
+					<div class="panel-footer">
+						<input type="hidden" id="hd_dt" value="">
+						<div id="dictate"></div>
+					</div> 
+				</div>  
+			</div>
+			<div class="col-md-5">
+				<div class="panel panel-yellow">
+					<div class="panel-heading">
+						Type Here <span id="speedshow"> </span> | <span id="currnt_speed"></span>
+					</div> 
+					<div class="panel-footer">
+						<div id="editor" contenteditable></div>
+						 
+					</div> 
+				</div> 
+			</div>
+			<div class="col-md-2">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="m0">Timer</h3>  
+						<input type="hidden" id="current_speed" value="">
+						<input type="hidden" id="consume_time" value="0">
+						<input type="hidden" id="tddime" value="56">
+					</div> 
+					<div class="panel-body text-center"> 
+						<label> Choose Time </label>
+						<select id="time" name ="time" class="form-control">
+							<option value="300"> 5 Minutes </option>
+							<option value="600" selected> 10 Minutes </option>
+							<option value="900"> 15 Minutes </option>
+							<option value="1200"> 20 Minutes </option>
+							<option value="1500"> 25 Minutes </option>
+							<option value="1800"> 30 Minutes </option>
+						</select><br>
+						<div class="timer" id="timer">
+							<button class="btn btn-success" id="start_btn"> Start Test </button>
+						</div>
+						
+					</div> 
+					<div class="panel-footer text-center">
+						  Time Remaining:  
+					</div>
+				</div>  			
+			</div>
+	
+		</div>
+		
+	</section>
+	<div class="container">
+		<div class="row keyboard">
+			<ul class="keyrow1"> 
+				<li><div class="key"> ऒ <span>~</span><br> ॊ <span>q</span></div></li>
+				<li><div class="key"> ऍ <span>!</span><br> 1 <span>1</span></div></li>
+				<li><div class="key"> ॅ <span>@</span><br> 2 <span>2</span></div></li>
+				<li><div class="key"> ्र <span>#</span><br> 3 <span>3</span></div></li>
+				<li><div class="key"> र् <span>$</span><br> 4 <span>4</span></div></li>
+				<li><div class="key"> ज्ञ <span>%</span><br> 5 <span>5</span></div></li>
+				<li><div class="key"> त्र <span>^</span><br> 6 <span>6</span></div></li>
+				<li><div class="key"> क्ष <span>&</span><br> 7 <span>7</span></div></li>
+				<li><div class="key"> श्र <span>*</span><br> 8 <span>8</span></div></li>
+				<li><div class="key"> ( <span>(</span><br> 9 <span>9</span></div></li>
+				<li><div class="key"> ) <span>)</span><br> 0 <span>0</span></div></li>
+				<li><div class="key"> ः <span>_</span><br> - <span>-</span></div></li>
+				<li><div class=" "> ऋ <span>+</span><br> ॉ <span>=</span></div></li> 
+				<li><div class="backspance ls1"> Backspace <br> &nbsp; </div></li> 				
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="keyrow2">
+				<li><div class="tab ls1"> Tab<br> &nbsp; </div></li>
+				<li><div class="key"> औ <span>Q</span><br> ौ <span>q</span></div></li>
+				<li><div class="key"> ऐ <span>W</span><br> ै <span>w</span></div></li>
+				<li><div class="key"> आ <span>E</span><br> ा <span>e</span></div></li>
+				<li><div class="key"> ई <span>R</span><br> ी <span>r</span></div></li>
+				<li><div class="key"> ऊ <span>T</span><br> ू <span>t</span></div></li>
+				<li><div class="key"> भ <span>Y</span><br> ब <span>y</span></div></li>
+				<li><div class="key"> ङ <span>U</span><br> ह <span>u</span></div></li>
+				<li><div class="key"> घ <span>I</span><br> ग <span>i</span></div></li>
+				<li><div class="key"> ध <span>O</span><br> द <span>o</span></div></li>
+				<li><div class="key"> झ <span>P</span><br> ज <span>p</span></div></li>
+				<li><div class="key"> ढ <span>{</span><br> ड <span>[</span></div></li>
+				<li><div class="key"> ञ <span>}</span><br> ़ <span>]</span></div></li>
+				<li><div class="key-or"> ऑ <span>|</span><br> ॉ <span>\</span></div></li>   
+			</ul><div class="clearfix"></div>
+			<ul class="keyrow3">
+				<li><div class="caplock ls1"> Caps Lock <br> &nbsp;	</div></li>
+				<li><div class="key"> ओ <span>A</span><br> ो	 <span>a</span></div></li>
+				<li><div class="key"> ए <span>S</span><br> े <span>s</span></div></li>
+				<li><div class="key"> अ <span>D</span><br> ् <span>d</span></div></li>
+				<li><div class="key"> इ <span>F</span><br> ि <span>f</span></div></li>
+				<li><div class="key"> उ <span>G</span><br> ु <span>g</span></div></li>
+				<li><div class="key"> फ <span>H</span><br> प <span>h</span></div></li>
+				<li><div class="key"> ऱ <span>J</span><br> र <span>j</span></div></li>
+				<li><div class="key"> ख <span>K</span><br> क <span>k</span></div></li>
+				<li><div class="key"> थ <span>L</span><br> त <span>l</span></div></li>
+				<li><div class="key"> छ <span>:</span><br> च <span>;</span></div></li>
+				<li><div class="key"> ठ <span>"</span><br> ट <span>'</span></div></li>
+				<li><div class="enter ls1"><span>Enter</span><br>  &nbsp; </div></li>
+				
+			</ul><div class="clearfix"></div>
+			<ul class="keyrow4">
+				<li><div class="shift ls1">Shift<br> &nbsp; </div></li>
+				<li><div class="key"> ऎ <span>Z</span><br> ॆ <span>z</span></div></li>
+				<li><div class="key"> ँ <span>X</span><br> ं <span>x</span></div></li>
+				<li><div class="key"> ण <span>C</span><br> म <span>c</span></div></li>
+				<li><div class="key"> ऩ <span>V</span><br> न <span>v</span></div></li>
+				<li><div class="key"> ऴ <span>B</span><br> व <span>b</span></div></li>
+				<li><div class="key"> ळ <span>N</span><br> ल <span>n</span></div></li>
+				<li><div class="key"> श <span>M</span><br> स <span>m</span></div></li>
+				<li><div class="key"> ष <span><</span><br> , <span>,</span></div></li>
+				<li><div class="key"> । <span>></span><br> . <span>.</span></div></li>
+				<li><div class="key"> य़ <span>?</span><br> य <span>/</span></div></li>
+				<li><div class="shift ls1"> <span>Shift</span><br>&nbsp; </div></li> 
+				
+			</ul><div class="clearfix"></div>
+			<ul class="keyrow5 text-center">
+				<li><div class="ctrl ls1">Ctrl</div></li>
+				<li><div class="alt ls1"> Alt </div></li> 
+				<li><div class="space ls1"> Space  </div></li>
+				<li><div class="alt ls1"> Alt  </div></li>
+				<li><div class="ctrl ls1"> Ctrl </div></li> 
+				
+			</ul><div class="clearfix"></div>
+			
+		</div>
+			
+	</div> 
+	 
+    <!-- Footer -->
+    <footer>
+        <div class="container hidden">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted text-center">Copyright &copy; Hindi Typing Master</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<div id="output"></div>
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.2.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script> 
+	<script src="js/lessions.js"></script>   
+	<script src="js/app.js"></script>
+	
+	<div class="modal fade" id="result_modal" tabindex="-1" role="dialog">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">Result</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>Your Gross Speed is: <span id="gross_speed"></span></p>
+			<p>Your Net Speed is: <span id="net_speed"></span></p>
+			<p>Total Keystrock: <span id="tot_keystrock"></span></p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary">Save changes</button>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+</body>
+
+</html>
